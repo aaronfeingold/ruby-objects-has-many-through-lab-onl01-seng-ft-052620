@@ -13,10 +13,6 @@ class Appointment
   def self.all
     @@all 
   end 
-  
-  def patient
-    Patient.new 
-  end 
 
   
 end 
